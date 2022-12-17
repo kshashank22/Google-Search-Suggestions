@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.google-logo {
+  height: 100px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.search-container {
+  display: flex;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search {
+  width: 350px;
+  height: 35px;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+}
+.suggestions {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
